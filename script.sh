@@ -4,7 +4,7 @@
 GITHUB_USERNAME="REDX-at"
 REPO_NAME="shell-scripting"
 REPO_DESCRIPTION="shell scripting repository"
-LOCAL_DIR="/home/aitaouss/kill_repo"  # Change this to your local repo path
+LOCAL_DIR="/Users/aitaouss/Desktop/shell_scripting"  # Change this to your local repo path
 
 # Prompt for commit message
 echo "Enter your commit message:"
