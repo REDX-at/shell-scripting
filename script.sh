@@ -39,3 +39,4 @@ rm file_a
 git add .
 git commit -m "$COMMIT_MESSAGE: Deleted temp_file.txt"
 git push
+
