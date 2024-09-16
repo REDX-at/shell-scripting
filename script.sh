@@ -21,11 +21,11 @@ if [ ! -d ".git" ]; then
   git init
 fi
 
-touch file_a
 # Add the new remote repository
 git remote add origin "https://github.com/$GITHUB_USERNAME/$REPO_NAME.git"
 
 # Create a temporary file
+touch file_a
 
 # Add all files, commit, and push to the new GitHub repository
 git add .
@@ -35,7 +35,7 @@ git push -u origin master
 # Now delete the temporary file
 rm file_a
 
-# # Commit the deletion
-# git add .
-# git commit -m "$COMMIT_MESSAGE: Deleted temp_file.txt"
-# git push
+# Commit the deletion
+git add .
+git commit -m "$COMMIT_MESSAGE: Deleted temp_file.txt"
+git push
