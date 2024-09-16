@@ -33,7 +33,7 @@ git commit -m "$COMMIT_MESSAGE: Added temp_file.txt"
 git push -u origin master
 
 # Now delete the temporary file
-rm file_a
+# rm file_a
 
 # # Commit the deletion
 # git add .
